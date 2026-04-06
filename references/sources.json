@@ -1,0 +1,62 @@
+{
+  "default_sources": [
+    {
+      "name": "@claude",
+      "url": "https://claude.com/blog",
+      "description": "Anthropic Claude 官方博客"
+    },
+    {
+      "name": "@openai",
+      "url": "https://developers.openai.com/blog",
+      "description": "OpenAI 开发者博客"
+    },
+    {
+      "name": "@deepmind",
+      "url": "https://deepmind.google/blog/",
+      "description": "Google DeepMind 研究博客"
+    },
+    {
+      "name": "@huggingface",
+      "url": "https://huggingface.co/blog",
+      "description": "Hugging Face 开源模型社区"
+    },
+    {
+      "name": "@googleai",
+      "url": "https://research.google/blog/",
+      "description": "Google Research AI 研究博客"
+    }
+  ],
+  "test_sources": [
+    {
+      "name": "@google",
+      "url": "https://blog.google/products-and-platforms/products/gemini/",
+      "description": "Google Gemini 博客"
+    },
+    {
+      "name": "@xai",
+      "url": "https://x.ai/news",
+      "description": "xAI 新闻"
+    }
+  ],
+  "source_name_mapping": {
+    "claude.com": "@claude",
+    "anthropic.com": "@anthropic",
+    "openai.com": "@openai",
+    "chatgpt.com": "@openai",
+    "deepmind.google": "@deepmind",
+    "deepmind.com": "@deepmind",
+    "huggingface.co": "@huggingface",
+    "google.com": "@googleai",
+    "blog.google": "@googleai",
+    "research.google": "@googleai",
+    "gemini.google.com": "@googleai",
+    "x.ai": "@xai",
+    "ai.meta.com": "@meta",
+    "llama.meta.com": "@meta",
+    "meta.com": "@meta",
+    "microsoft.com": "@microsoft",
+    "blogs.microsoft.com": "@microsoft",
+    "github.com": "@github",
+    "arxiv.org": "@arxiv"
+  }
+}

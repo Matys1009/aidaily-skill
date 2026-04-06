@@ -1,0 +1,78 @@
+# SMTP 配置文件
+# 复制此文件为 smtp.conf 并填入你的 SMTP 信息
+
+# SMTP 服务器地址
+SMTP_HOST=smtp.gmail.com
+
+# SMTP 端口（默认 587）
+SMTP_PORT=587
+
+# 发件人邮箱（通常与用户名相同）
+SMTP_FROM=your_email@gmail.com
+
+# SMTP 登录用户名
+SMTP_USER=your_email@gmail.com
+
+# SMTP 登录密码或应用专用密码
+# 注意：对于 Gmail，需要使用应用专用密码而不是普通密码
+# 获取方式：https://myaccount.google.com/apppasswords
+SMTP_PASS=your_app_password
+
+# 可选：使用 curl 发送邮件（设置为 yes 启用）
+# SMTP_USE_CURL=no
+
+# ============================================================
+# 常见 SMTP 配置示例：
+# ============================================================
+
+# 【Gmail 示例】
+# SMTP_HOST=smtp.gmail.com
+# SMTP_PORT=587
+# SMTP_FROM=your_email@gmail.com
+# SMTP_USER=your_email@gmail.com
+# SMTP_PASS=xxxx xxxx xxxx xxxx  （16位应用专用密码）
+
+# 【Outlook/Hotmail 示例】
+# SMTP_HOST=smtp.office365.com
+# SMTP_PORT=587
+# SMTP_FROM=your_email@outlook.com
+# SMTP_USER=your_email@outlook.com
+# SMTP_PASS=your_password
+
+# 【QQ邮箱示例】
+# SMTP_HOST=smtp.qq.com
+# SMTP_PORT=587
+# SMTP_FROM=your_qq@qq.com
+# SMTP_USER=your_qq@qq.com
+# SMTP_PASS=your_auth_code  （需要在QQ邮箱设置中获取授权码）
+
+# 【163邮箱示例】
+# SMTP_HOST=smtp.163.com
+# SMTP_PORT=587
+# SMTP_FROM=your_email@163.com
+# SMTP_USER=your_email@163.com
+# SMTP_PASS=your_auth_code  （需要在163邮箱设置中获取授权码）
+
+# 【企业邮箱示例】
+# SMTP_HOST=smtp.exmail.qq.com  (腾讯企业邮)
+# SMTP_PORT=587
+# SMTP_FROM=your_name@company.com
+# SMTP_USER=your_name@company.com
+# SMTP_PASS=your_password
+
+# ============================================================
+# 配置步骤：
+# ============================================================
+#
+# 1. 复制配置文件：
+#    cp smtp.conf.example smtp.conf
+#
+# 2. 编辑 smtp.conf，填入你的 SMTP 信息
+#
+# 3. 安装 msmtp（Mac）：
+#    brew install msmtp
+#
+# 4. 测试邮件发送：
+#    bash scripts/send_email.sh "test@example.com" "测试邮件" /tmp/test.txt
+#
+# ============================================================
