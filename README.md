@@ -51,6 +51,10 @@ git clone https://github.com/Matys1009/aidaily-skill.git ~/.claude/skills/aidail
 
 ## 快速配置（懒人版）
 
+<p align="center">
+  <img src="qqMailsmtpon.png" alt="QQ Mail SMTP config" width="700" />
+</p>
+
 直接告诉 Claude：
 
 > "配置 AI Daily，发件邮箱是 xxx@qq.com，授权码是 xxxx，收件邮箱是 yyy@company.com"
