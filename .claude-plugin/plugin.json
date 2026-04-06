@@ -1,0 +1,13 @@
+{
+  "name": "ai-daily",
+  "description": "AI 资讯日报生成工具 - 自动整理前沿 AI 新闻，生成精美卡片式 HTML 日报，支持邮件和 Webhook 发送",
+  "version": "1.0.0",
+  "author": {
+    "name": "matys"
+  },
+  "homepage": "https://github.com/Matys1009/aidaily-skill",
+  "repository": "https://github.com/Matys1009/aidaily-skill",
+  "license": "MIT",
+  "keywords": ["ai", "news", "daily", "email", "webhook", "newsletter", "claude", "openai", "deepmind", "huggingface"],
+  "skills": "./"
+}

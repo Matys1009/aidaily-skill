@@ -1,0 +1,18 @@
+{
+  "name": "ai-daily",
+  "owner": {
+    "name": "matys"
+  },
+  "metadata": {
+    "description": "AI 资讯日报生成工具 - 自动整理前沿 AI 新闻并生成精美 HTML 日报"
+  },
+  "plugins": [
+    {
+      "name": "ai-daily",
+      "description": "自动从 Claude、OpenAI、DeepMind、HuggingFace、Google AI 等权威来源获取最新 AI 资讯，生成卡片式 HTML 日报，支持邮件和 Webhook 发送",
+      "source": "./",
+      "category": "productivity",
+      "tags": ["ai", "news", "daily", "email", "webhook", "claude", "openai", "deepmind"]
+    }
+  ]
+}
