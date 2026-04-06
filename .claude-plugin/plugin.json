@@ -1,5 +1,5 @@
 {
-  "name": "ai-daily",
+  "name": "aidaily",
   "description": "AI 资讯日报生成工具 - 自动整理前沿 AI 新闻，生成精美卡片式 HTML 日报，支持邮件和 Webhook 发送",
   "version": "1.0.0",
   "author": {

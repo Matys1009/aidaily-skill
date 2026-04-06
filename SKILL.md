@@ -1,5 +1,5 @@
 ---
-name: aiDaily
+name: aidaily
 description: |
   整理和汇总 AI 领域最新资讯的 skill。当用户说出"帮我整理今日的ai资讯"、"整理每日ai资讯"、
   "今天有什么ai新闻"、"获取ai日报"等类似话语时触发。自动从配置的 AI 博客源获取最新文章，

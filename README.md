@@ -46,7 +46,7 @@ claude plugin install ai-daily@ai-daily --scope user
 ### 方式三：手动安装
 
 ```bash
-git clone https://github.com/Matys1009/aidaily-skill.git ~/.claude/skills/aiDaily
+git clone https://github.com/Matys1009/aidaily-skill.git ~/.claude/skills/aidaily
 ```
 
 ## 快速配置（懒人版）
@@ -62,7 +62,7 @@ git clone https://github.com/Matys1009/aidaily-skill.git ~/.claude/skills/aiDail
 Claude 会自动执行：
 
 ```bash
-cat > ~/.claude/skills/aiDaily/config/smtp.conf << 'EOF'
+cat > ~/.claude/skills/aidaily/config/smtp.conf << 'EOF'
 SMTP_HOST=smtp.qq.com
 SMTP_PORT=587
 SMTP_FROM=xxx@qq.com
@@ -137,7 +137,7 @@ AI: [生成英文版日报]
 
 ```bash
 # 复制配置模板
-cp ~/.claude/skills/aiDaily/config/smtp.conf.example ~/.claude/skills/aiDaily/config/smtp.conf
+cp ~/.claude/skills/aidaily/config/smtp.conf.example ~/.claude/skills/aidaily/config/smtp.conf
 
 # 编辑配置文件，填入你的 SMTP 信息
 # 支持 QQ、Gmail、163、企业邮箱等
@@ -189,14 +189,14 @@ aidaily/
 ## 更新
 
 ```bash
-cd ~/.claude/skills/aiDaily
+cd ~/.claude/skills/aidaily
 git pull origin main
 ```
 
 ## 卸载
 
 ```bash
-rm -rf ~/.claude/skills/aiDaily
+rm -rf ~/.claude/skills/aidaily
 ```
 
 ## 许可证
